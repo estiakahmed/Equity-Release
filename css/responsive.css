@@ -116,7 +116,7 @@
     /*faq end*/
 }
 /*768-992 px*/
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .logobox {
         padding-top: 20px;
         margin-left: 0px;
@@ -162,7 +162,7 @@
     }
     /*formssection start*/
     .fiedgroup.full_width input {
-        width: 332px;
+        width: 344px;
         height: 52px;
         margin-bottom: 16px;
         border-radius: 3px;
@@ -174,6 +174,11 @@
     }
     img.headingimg {
         width: 225px;
+    }
+    label {
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 8px;
     }
 
     /*formssection end*/
@@ -192,7 +197,7 @@
     /*footer end*/
 }
 /*576-768 px*/
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
     .logobox {
         padding-top: 20px;
         margin-left: 0px;
@@ -306,7 +311,7 @@
     /*footer end*/
 }
 /*425-576 px*/
-@media only screen and (min-width: 425px) and (max-width: 576px) {
+@media only screen and (min-width: 425px) and (max-width: 575px) {
     .logobox {
         padding-top: 20px;
         margin-left: 0px;
@@ -343,7 +348,7 @@
     }
     .anothertittle p {
         text-align: center;
-        font-size: 19px;
+        font-size: 24px;
         font-weight: 700;
         padding-top: 25px;
         padding-bottom: 25px;
@@ -368,23 +373,42 @@
     }
     /*formssection start*/
     .fiedgroup.full_width input {
-        width: 240px;
+        width: 318px;
         height: 52px;
         margin-bottom: 16px;
         border-radius: 3px;
         border: 1px solid #bfbfbf;
     }
     .fieldgroup.datediv {
-        margin-left: 30px;
-        margin-right: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     img.headingimg {
-        width: 157px;
+        width: 337px;
     }
     .imgbox h2 {
         font-size: 19px;
         font-weight: 700;
         margin-bottom: 0.5em;
+    }
+    .anothertittle {
+        background: #d9dfed;
+        border-radius: 5px 5px 0px 0px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .post_date {
+        display: block;
+    }
+    .fieldgroup {
+        width: 318px;
+    }
+    .footerbutton {
+        float: right;
+        margin-right: 18px;
+    }
+    .imgbox {
+        padding-left: 0px;
     }
 
     /*formssection end*/
@@ -403,7 +427,7 @@
     /*footer end*/
 }
 /*375-425 px*/
-@media only screen and (min-width: 375px) and (max-width: 425px) {
+@media only screen and (min-width: 375px) and (max-width: 424px) {
     .logobox {
         padding-top: 20px;
         margin-left: 0px;
@@ -422,13 +446,13 @@
     .headertext p {
         text-align: center;
         font-style: italic;
-        font-size: 19px;
+        font-size: 22px;
         font-weight: 400;
         color: white;
     }
     .anothertittle p {
         text-align: center;
-        font-size: 15px;
+        font-size: 24px;
         font-weight: 700;
         padding-top: 25px;
         padding-bottom: 25px;
@@ -466,23 +490,47 @@
     }
     /*formssection start*/
     .fiedgroup.full_width input {
-        width: 253px;
+        width: 270px;
         height: 52px;
         margin-bottom: 16px;
         border-radius: 3px;
         border: 1px solid #bfbfbf;
     }
     .fieldgroup.datediv {
-        margin-left: 30px;
+        margin-left: 0px;
         margin-right: 15px;
     }
     img.headingimg {
-        width: 250px;
+        width: 287px;
     }
     .imgbox h2 {
         font-size: 19px;
         font-weight: 700;
         margin-bottom: 0.5em;
+    }
+    .imgbox h2 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+    .anothertittle {
+        background: #d9dfed;
+        border-radius: 5px 5px 0px 0px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .post_date {
+        display: block;
+    }
+    .fieldgroup {
+        width: 270px;
+    }
+    .footerbutton {
+        float: right;
+        margin-right: 18px;
+    }
+    .imgbox {
+        padding-left: 0px;
     }
 
     /*formssection end*/
@@ -501,7 +549,7 @@
     /*footer end*/
 }
 /*320-375 px*/
-@media only screen and (min-width: 320px) and (max-width: 375px) {
+@media only screen and (min-width: 320px) and (max-width: 374px) {
     .logobox {
         padding-top: 20px;
         margin-left: 0px;
@@ -520,13 +568,13 @@
     .headertext p {
         text-align: center;
         font-style: italic;
-        font-size: 19px;
+        font-size: 22px;
         font-weight: 400;
         color: white;
     }
     .anothertittle p {
         text-align: center;
-        font-size: 15px;
+        font-size: 24px;
         font-weight: 700;
         padding-top: 25px;
         padding-bottom: 25px;
@@ -571,11 +619,11 @@
         border: 1px solid #bfbfbf;
     }
     .fieldgroup.datediv {
-        margin-left: 17px;
-        margin-right: 1px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     img.headingimg {
-        width: 286px;
+        width: 232px;
     }
     .imgbox h2 {
         font-size: 19px;
@@ -583,7 +631,7 @@
         margin-bottom: 0.5em;
     }
     label {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
         padding-bottom: 8px;
     }
@@ -609,6 +657,30 @@
         background-color: #e6e6e6;
         border-left: 2px solid #e28e07;
         margin-right: 0px;
+    }
+    .imgbox h2 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+    .anothertittle {
+        background: #d9dfed;
+        border-radius: 5px 5px 0px 0px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .post_date {
+        display: block;
+    }
+    .fieldgroup {
+        width: 231px;
+    }
+    .footerbutton {
+        float: right;
+        margin-right: 18px;
+    }
+    .imgbox {
+        padding-left: 0px;
     }
 
     /*formssection end*/

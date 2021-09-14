@@ -12,6 +12,10 @@ for (i = 0; i < len; i++) {
         }
     });
 }
+$(function () {
+    $("#propertyValue").maskMoney({ prefix: "£", precision: 0, allowNegative: false });
+});
+
 //form value transfer
 function handleSubmit() {
     var firstname = document.getElementById("firstname").value;
@@ -29,16 +33,21 @@ function handleSubmit() {
 
 // date of birth formet
 
-var date = document.getElementById("dateofbirth");
+// var date = document.getElementById("dateofbirth");
 
-function checkValue(str, max) {
-    if (str.charAt(0) !== "0" || str == "00") {
-        var num = parseInt(str);
-        if (isNaN(num) || num <= 0 || num > max) num = 1;
-        str = num > parseInt(max.toString().charAt(0)) && num.toString().length == 1 ? "0" + num : num.toString();
-    }
-    return str;
-}
+// function checkValue(str, max) {
+//     if (str.charAt(0) !== "0" || str == "00") {
+//         var num = parseInt(str);
+//         if (isNaN(num) || num <= 0 || num > max) num = 1;
+//         str = num > parseInt(max.toString().charAt(0)) && num.toString().length == 1 ? "0" + num : num.toString();
+//     }
+//     return str;
+// }
+var cleave = new Cleave("#dateofbirth", {
+    date: true,
+    delimiter: "/",
+    datePattern: ["d", "m", "Y"],
+});
 
 date.addEventListener("input", function (e) {
     this.type = "text";
@@ -80,4 +89,9 @@ date.addEventListener("blur", function (e) {
         }
     }
     this.value = output;
+});
+var cleave = new Cleave("#dateofbirth", {
+    date: true,
+    delimiter: "-",
+    datePattern: ["d", "m", "Y"],
 });

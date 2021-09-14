@@ -83,43 +83,46 @@
                             <div class="formbox">
                                 <h2>Calculate How Much You Can Release</h2>
                                 <form id="calculator-form" action="thank-you.html" method="POST">
-                                    <div class="fiedgroup full_width">
-                                        <label for="propertyvalue">Estimated value of your home</label> <br />
-                                        <input id="propertyvalue" type="text" name="propertyvalue" value />
+                                    <div class="alldivform">
+                                        <div class="fiedgroup full_width">
+                                            <label for="propertyvalue">Estimated value of your home</label> <br />
+                                            <input id="propertyValue" type="text" name="propertyvalue" value />
+                                        </div>
+                                        <div class="post_date">
+                                            <div class="fieldgroup">
+                                                <label for="postcode">postcode</label> <br />
+                                                <input id="postvalue" type="text" name="postcode" value required />
+                                            </div>
+                                            <div class="fieldgroup datediv">
+                                                <label for="dateofbirth"> Date of Birth</label> <br />
+                                                <input id="dateofbirth" placeholder="dd/mm/yyyy" type="text" name="dateofbirth" value required />
+                                            </div>
+                                        </div>
+                                        <div class="post_date">
+                                            <div class="fieldgroup">
+                                                <label for="firstName">First Name</label> <br />
+                                                <input id="firstname" type="text" name="firstName" value required />
+                                            </div>
+                                            <div class="fieldgroup datediv">
+                                                <label for="lastName"> Last Name</label> <br />
+                                                <input id="lastname" type="text" name="lastName" value required />
+                                            </div>
+                                        </div>
+                                        <div class="post_date">
+                                            <div class="fieldgroup">
+                                                <label for="contactNumber">Mobile Phone Number</label> <br />
+                                                <input id="contactnumber" type="text" name="contactNumber" value required />
+                                            </div>
+                                            <div class="fieldgroup datediv">
+                                                <label for="emailAddress">
+                                                    Email Address
+                                                </label>
+                                                <br />
+                                                <input id="email" type="text" name="emailAddress" value required />
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="post_date">
-                                        <div class="fieldgroup">
-                                            <label for="postcode">postcode</label> <br />
-                                            <input id="postvalue" type="text" name="postcode" value required />
-                                        </div>
-                                        <div class="fieldgroup datediv">
-                                            <label for="date_of_birth"> Date of Birth</label> <br />
-                                            <input id="dateofbirth" placeholder="dd/mm/yyyy" type="text" name="postcode" value required />
-                                        </div>
-                                    </div>
-                                    <div class="post_date">
-                                        <div class="fieldgroup">
-                                            <label for="firstName">First Name</label> <br />
-                                            <input id="firstname" type="text" name="firstName" value required />
-                                        </div>
-                                        <div class="fieldgroup datediv">
-                                            <label for="lastName"> Last Name</label> <br />
-                                            <input id="lastname" type="text" name="lastName" value required />
-                                        </div>
-                                    </div>
-                                    <div class="post_date">
-                                        <div class="fieldgroup">
-                                            <label for="contactNumber">Mobile Phone Number</label> <br />
-                                            <input id="contactnumber" type="text" name="contactNumber" value required />
-                                        </div>
-                                        <div class="fieldgroup datediv">
-                                            <label for="emailAddress">
-                                                Email Address
-                                            </label>
-                                            <br />
-                                            <input id="email" type="text" name="emailAddress" value required />
-                                        </div>
-                                    </div>
+
                                     <div class="footerbutton">
                                         <button type="submit" onclick="handleSubmit();">
                                             Calculate Now
@@ -338,10 +341,13 @@
         </footer>
         <!-- footer area end -->
 
-        <script src="js/jquery-3.3.1.min.js"></script>
-
         <script src="js/bootstrap.min.js.map"></script>
         <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery.maskMoney.min.js"></script>
+        <script src="js/cleave.min.js"></script>
+
         <script src="js/index.js"></script>
     </body>
 </html>
