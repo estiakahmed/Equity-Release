@@ -15,7 +15,7 @@ header#header {
 }
 
 .logobox img {
-    width: 448px;
+    width: 426px;
     margin-left: 20px;
 }
 .textbox {
@@ -42,6 +42,7 @@ header#header {
 .logobox {
     padding-top: 20px;
     margin-left: 0px;
+    width: 230px;
 }
 
 /*nav area end*/
@@ -72,7 +73,29 @@ section.formsection {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+.fourlogobox {
+    width: 200px;
+}
 
+.col-xs-12.alllogobox {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.fourlogobox.box4 {
+    float: right;
+    width: 156px;
+    padding-top: 14px;
+}
+
+.fourlogobox.box3 {
+    text-align: center;
+}
+
+.fourlogobox.box2 {
+    text-align: center;
+}
 .anothertittle {
     background: #d9dfed;
     border-radius: 5px 5px 0px 0px;
@@ -82,6 +105,7 @@ section.formsection {
     margin-left: 20px;
     margin-right: 20px;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .box.box2 {

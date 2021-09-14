@@ -160,6 +160,9 @@
     .box img {
         width: 120px;
     }
+    .fourlogobox.box4 {
+        width: 135px;
+    }
     /*formssection start*/
     .fiedgroup.full_width input {
         width: 344px;
@@ -179,6 +182,9 @@
         font-size: 14px;
         font-weight: 400;
         padding-bottom: 8px;
+    }
+    .fourlogobox img {
+        width: 120px;
     }
 
     /*formssection end*/
@@ -243,6 +249,12 @@
     }
     .box.box2 {
         text-align: right;
+    }
+    .fourlogobox img {
+        width: 90px;
+    }
+    .fourlogobox {
+        width: 93px;
     }
     /*formssection start*/
     .fiedgroup.full_width input {
@@ -353,6 +365,9 @@
         padding-top: 25px;
         padding-bottom: 25px;
     }
+    .fourlogobox img {
+        width: 100px;
+    }
     .box {
         padding-bottom: 45px;
         padding-top: 38px;
@@ -409,6 +424,14 @@
     }
     .imgbox {
         padding-left: 0px;
+    }
+    .fourlogobox.box4 img {
+        width: 117px;
+    }
+    .fourlogobox.box4 {
+        float: right;
+        width: 228px;
+        padding-bottom: 30px;
     }
 
     /*formssection end*/
@@ -532,6 +555,18 @@
     .imgbox {
         padding-left: 0px;
     }
+    .fourlogobox.box4 img {
+        width: 104px;
+        margin-left: 32px;
+    }
+    .fourlogobox.box4 {
+        float: right;
+        width: 228px;
+        padding-bottom: 30px;
+    }
+    .fourlogobox img {
+        width: 95px;
+    }
 
     /*formssection end*/
     /*faq start*/
@@ -609,6 +644,17 @@
     header#header {
         background: #314d5e;
         height: 430px;
+    }
+    .fourlogobox.box4 img {
+        width: 102px;
+        margin-left: 62px;
+    }
+    .fourlogobox.box4 {
+        width: 228px;
+        padding-bottom: 30px;
+    }
+    .fourlogobox img {
+        width: 80px;
     }
     /*formssection start*/
     .fiedgroup.full_width input {
